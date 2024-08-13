@@ -36,3 +36,56 @@
     transform: rotate(360deg);
   }
 }
+
+/* [type="checkbox"]{
+  opacity: 0;
+}
+
+[type="checkbox"] + label{
+  position: relative;
+  padding-left: 30px;
+  cursor: pointer;
+  display: inline-block;
+  color: #CDCDCD;
+  line-height: 25px;
+}
+
+[type="checkbox"] + label::before{
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 18px;
+  height: 18px;
+  outline: 1px solid #CDCDCD;
+  border-radius: 6px;
+  background: #fff;
+} */
+
+input[type="checkbox"]{
+  appearance: none;
+  -webkit-appearance: none;
+  height: 23px;
+  width: 23px;
+  border: 1px solid #CDCDCD;
+  border-radius: 6px;
+  cursor: pointer;
+}
+label{
+  cursor: pointer;
+}
+input[type="checkbox"]:hover{
+  background-image: url(https://i.postimg.cc/8cnmQZzH/Vector-141.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 90%;
+}
+input[type="checkbox"]:checked{
+  background-color: #5087F8;
+  background-image: url(https://i.postimg.cc/J0bHKKB0/Vector-141-1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 1px solid #BDBDBD;
+  background-size: 90%;
+  
+}
