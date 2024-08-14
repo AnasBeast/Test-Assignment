@@ -37,31 +37,7 @@
   }
 }
 
-/* [type="checkbox"]{
-  opacity: 0;
-}
-
-[type="checkbox"] + label{
-  position: relative;
-  padding-left: 30px;
-  cursor: pointer;
-  display: inline-block;
-  color: #CDCDCD;
-  line-height: 25px;
-}
-
-[type="checkbox"] + label::before{
-  content: "";
-  position: absolute;
-  right: 0;
-  top: 0;
-  width: 18px;
-  height: 18px;
-  outline: 1px solid #CDCDCD;
-  border-radius: 6px;
-  background: #fff;
-} */
-
+/* Creating Custom Checkbox */
 input[type="checkbox"]{
   appearance: none;
   -webkit-appearance: none;
