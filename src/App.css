@@ -81,11 +81,15 @@ input[type="checkbox"]:hover{
   background-size: 90%;
 }
 input[type="checkbox"]:checked{
-  background-color: #5087F8;
+  background-color: #2469F6;
   background-image: url(https://i.postimg.cc/J0bHKKB0/Vector-141-1.png);
   background-position: center;
   background-repeat: no-repeat;
   border: 1px solid #BDBDBD;
   background-size: 90%;
+  
+}
+input[type="checkbox"]:checked:hover{
+  background-color: #5087F8;
   
 }

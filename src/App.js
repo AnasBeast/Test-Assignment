@@ -1,6 +1,5 @@
 import './App.css';
 import Box from './box';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 function App() {
   return (
